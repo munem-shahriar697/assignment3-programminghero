@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renaissance Convention Center</title>.
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Custom CSS -->
+    <link rel=" stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/62098ded85.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light py-3">
+            <div class="container">
+                <a class="navbar-brand font-weight-700" href="#">Renaissance Convention Center</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse font-weight-400" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link active" aria-current="page"
+                                href="https://www.programming-hero.com/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link active"
+                                href="https://www.programming-hero.com/about-us.html">About
+                                Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link active"
+                                href="https://app.programming-hero.com/contact/">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a target="_blank" class="nav-link active"
+                                href="https://web.programming-hero.com/">Subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carousel -->
+        <section class="container-fluid mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/banner-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="fs-1 text">The perfect venue for your
+                                next big <span class="you fw-bold">event</span>
+                            </h1>
+                            <p class="fs-3 text">Looking for a perfect place to arrange your next big event? Come to
+                                us.</p>
+                            <button class="btn btn-light"> <span class="button-text fw-bold"> <a
+                                        style="text-decoration: none;" target="_blank"
+                                        href="https://www.weddingdiary.com.bd/">Book
+                                        Now</a></span></button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="fs-1 text">Any type of social event for <span class="you fw-bold">you</span>
+                            </h1>
+                            <p class="fs-4 text">Looking for a perfect place to arrange wedding, birthday and more? <br>
+                                We
+                                welcome you at Renaissance convention center.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/banner-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="fs-1 text">Start your new <span class="you fw-bold">journey</span> at Renaissance
+                                Convention Center
+                            </h1>
+                            <p class="fs-3 text">We are here to make your life events more memorable. Your memories will
+                                be more colorful with us.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <br>
+    <!-- Toast(optional) -->
+    <section class="d-flex justify-content-end">
+        <div id="toast" class="toast border border-primary border-5 border-end-0 border-top-0 border-bottom-0"
+            style="width: 250px; color: #505050;" role="alert" aria-live="assertive" aria-atomic="true"
+            data-bs-autohide="false">
+            <div class="toast-header">
+                <strong class="me-auto"><i class="fas fa-gift text-primary"></i> 20% off on next booking</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+        </div>
+    </section>
+    <main>
+        <!-- Every moment is Precious -->
+        <section>
+            <div class="container my-5 pt-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <img class="img-fluid" width="546px" src="images/wedding.png" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div>
+                            <h1 id="precious"> Every moment is Precious </h1>
+                            <p>Every moment of life is precious and can never happen again and therefore
+                                is a reason to
+                                appreciate,
+                                be grateful for and celebrate the fact that you are alive.</p>
+                            <button type="button" id="precious" class="btn btn-primary"><a
+                                    style="text-decoration: none; color: white;" target="_blank"
+                                    href="https://www.weddingdiary.com.bd/gallery/">Explore our album <i
+                                        class="fas fa-arrow-right"></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Packages -->
+        <h1 id="precious" style="font-size: 38px; line-height: 57px;" class="d-flex justify-content-center mb-5">Our
+            Packages
+        </h1><br>
+
+        <!-- Our Packages cards -->
+        <section id="about" class="container">
+            <div class="row g-0">
+                <div class="col-lg-3 col-md-6 col-sm-12 p-2 mt-5">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h1 class="card-title" id="price">$300</h1><br>
+                            <h3 class="card-title" id="price">Business fair</h3>
+                            <p class="card-text my-2" id="card-text">For most businesses event
+                                like book fair, craft fair.
+                            </p>
+                            <div class="my-3" id="card-text">
+                                <span><i class="fas fa-check-circle"></i> limited space access</span><br>
+                                <span><i class="fas fa-check-circle"></i> Secuirty facility</span><br>
+                                <span><i class="fas fa-check-circle"></i> event support</span><br>
+                                <span><i class="fas fa-check-circle"></i> Decoration design</span><br>
+                                <span><i class="fas fa-check-circle"></i> Per day bill</span><br>
+                            </div>
+                            <a target="_blank" href="https://www.weddingdiary.com.bd/weddingpackages/"
+                                class="btn btn-primary mt-3 rounded rounded-pill border-0 fw-bolder"
+                                style="background-color: #f496d223; width: 207px;"><span class="text-primary">Choose
+                                    plan</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 p-2 mt-5">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h1 class="card-title" id="price">$500</h1><br>
+                            <h3 class="card-title" id="price">Wedding basic</h3>
+                            <p class="card-text my-2" id="card-text">For weddings with basic plan
+                                and limited item.
+                            </p>
+                            <div class="my-3" id="card-text">
+                                <span><i class="fas fa-check-circle"></i> Full space access</span><br>
+                                <span><i class="fas fa-check-circle"></i> Food arrangement</span><br>
+                                <span><i class="fas fa-check-circle"></i> Mangement support</span><br>
+                                <span><i class="fas fa-check-circle"></i> Decoration design</span><br>
+                                <span><i class="fas fa-check-circle"></i> Billed as shift</span><br>
+                            </div>
+                            <a target="_blank" href="https://www.weddingdiary.com.bd/weddingpackages/"
+                                class="btn btn-primary mt-3 rounded rounded-pill border-0 fw-bolder"
+                                style="background-color: #f496d223; width: 207px;"><span class="text-primary">Choose
+                                    plan</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 mt-0 text-white">
+                    <div class="card bg-primary p-3 shadow" id="rounded">
+                        <div class="card-body">
+                            <h1 class="card-title" id="price">$800</h1><br>
+                            <h3 class="card-title" id="price">Wedding plus</h3>
+                            <p class="card-text my-2" id="card-text text-white">For most weddings with premium plans.
+                            </p>
+                            <div class="mt-3 text-white" id="card-text">
+                                <span><i class="fas fa-check-circle"></i> Full space access</span><br>
+                                <span><i class="fas fa-check-circle"></i> Dedicated team</span><br>
+                                <span><i class="fas fa-check-circle"></i> Buffet food</span><br>
+                                <span><i class="fas fa-check-circle"></i> Premium Decoration</span><br>
+                                <span><i class="fas fa-check-circle"></i> Pay as plan</span>
+                            </div>
+
+                            <a target="_blank" href="https://www.weddingdiary.com.bd/weddingpackages/"
+                                class="btn btn-primary mt-3 rounded rounded-pill border-0 fw-bolder"
+                                style="background-color: #ffffff; width: 207px;"><span class="text-primary">Choose
+                                    plan</span></a>
+                            <span class="position-absolute top-0 start-5 translate-middle badge rounded-pill bg-danger">
+                                Hot
+                                <span class="visually-hidden">unread messages</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 p-2 mt-5 ">
+                    <div class="card border-0">
+                        <div class="card-body">
+                            <h1 class="card-title" id="price">$1200</h1><br>
+                            <h3 class="card-title" id="price">Corporate event</h3>
+                            <p class="card-text my-2" id="card-text">For most corporate business
+                                events.
+                            </p>
+                            <div class="my-3" id="card-text">
+                                <span><i class="fas fa-check-circle"></i> Full space access</span><br>
+                                <span><i class="fas fa-check-circle"></i> Dedicated team</span><br>
+                                <span><i class="fas fa-check-circle"></i> Buffet food</span><br>
+                                <span><i class="fas fa-check-circle"></i> Premium Decoration</span><br>
+                                <span><i class="fas fa-check-circle"></i> Pay as plan</span><br>
+                            </div>
+                            <br>
+                            <a target="_blank" href="https://www.weddingdiary.com.bd/weddingpackages/"
+                                class="btn btn-primary mt-3 rounded rounded-pill border-0 fw-bolder"
+                                style="background-color: #f496d223; width: 207px;"><span class="text-primary">Choose
+                                    plan</span></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Happy Client Says cards -->
+        <h1 id="precious" style="font-size: 38px; line-height: 57px;" class="d-flex justify-content-center my-5"> Some
+            Feedbacks from our Clients</h1>
+
+        <section id="subscribe" class="container d-flex">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <iframe class="w-100 h-100" src="https://www.youtube-nocookie.com/embed/XFNLeD3o5jk"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h2>SugarSpiceNice India </h2>
+                    <p>A five star hotel in Mumbai with a Lake view room? Seems unusual? Actually not! Renaissance Hotel
+                        in
+                        Powai offers a Lake view room, and is probably the only hotel in mumbai with a view like that. I
+                        have shared the hotel food, room tour and my overall experience in the video.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <h1 id="precious" style="font-size: 38px; line-height: 57px;" class="d-flex justify-content-center my-5">
+            Frequently Asked Questions
+        </h1><br>
+        <section class="container mb-5 my-auto">
+            <div class="row g-2">
+                <div class="accordion col-lg-6 col-md-12 col-sm-12" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What’s the difference between event design and event planning?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Event design and event planning work hand in hand to deliver a successful
+                                    event.Events by Knight offer tailor made events. This means we incorporate both
+                                    event design and event planning to create that perfect event.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How early do we need to start planning an event
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is your refund and cancellation policy?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                How do you keep budgets on track?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until
+                                the
+                                collapse plugin adds the appropriate classes that we use to style each element. These
+                                classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables.
+                                It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img class="img-fluid" src="images/people.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="background-color: black; color: white; height: 210px;" class="d-flex justify-content-around m-0">
+        <div class="pt-5">
+            <small><strong>© 2020 bike. <br> All rights reserved</strong></small>
+        </div>
+        <div class="pt-4">
+            <span>Get the App</span>
+            <br>
+            <div class="d-flex flex-column">
+                <a target="_blank" href="https://apps.apple.com/us/app/tinder-dating-new-people/id547702041"><img
+                        src="icons/apple.png" alt=""></a>
+                <a target="_blank" href="https://play.google.com/store/apps/details?id=com.tinder"><img class="pt-0"
+                        src="icons/google.png" alt=""></a>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        window.onload = (event) => {
+            let myAlert = document.querySelector('.toast');
+            let bsAlert = new bootstrap.Toast(myAlert);
+            bsAlert.show();
+        }
+    </script>
+    <!-- Javascript bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

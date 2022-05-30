@@ -1,0 +1,61 @@
+/*---------------
+    google-fonts 
+ --------------*/
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ /* -----------
+    body 
+ ------------ */
+ body{
+     margin: 0%;
+     background-color: #E5E5E5;
+ }
+ /*-------------
+  Custom fonts 
+  -------------*/
+.font-weight-700{
+    font-weight: 700;
+    font-family: 'Josefin Slab', serif;
+}
+.font-weight-400{
+    font-weight: 500;
+    font-family: 'Josefin Slab', serif;
+}
+h1{
+    font-family: 'PT Mono', monospace;
+}
+p{
+    font-size: 20px;
+    font-family: 'PT Mono', monospace;
+}
+.you{
+    color: #00aeff;
+}
+.button-text{
+    color: #00aeff;
+}
+#precious{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+#price{
+    font-family: 'Roboto', sans-serif;
+}
+#card-text{
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #848199;
+}
+#rounded{
+    border-radius: 8%;
+}
+#toast{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
